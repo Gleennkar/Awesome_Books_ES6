@@ -6,12 +6,12 @@ const inputAuthor = document.getElementById('author');
 const form = document.getElementById('book-form');
 const bookSection = document.querySelector('.library');
 
-/*class Book {
+/* class Book {
   constructor(title, author) {
     this.title = title;
     this.author = author;
   }
-}*/
+} */
 
 // Array of books
 class BookCollection {
@@ -111,7 +111,7 @@ aContact.addEventListener('click', () => {
 showSection('new-book-section');
 
 const init = () => {
-    getTime();
+  getTime();
 };
 
 init();
