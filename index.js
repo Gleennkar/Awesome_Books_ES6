@@ -1,5 +1,5 @@
-import Book from './modules/book';
-import getTime from './modules/day-time.js';
+import Book from './modules/book.js';
+import getTime from './modules/action-time.js';
 
 const inputTitle = document.getElementById('title');
 const inputAuthor = document.getElementById('author');
